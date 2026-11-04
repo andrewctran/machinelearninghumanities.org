@@ -4,10 +4,8 @@
   [
     #section-head("Current projects", more: link(label("projects"))[All projects])
     #listing(
-      item(link(label("projects"))[Terms and Conditions])[
-        A bestiary of terms, in the manner of #link("https://lolm.ohrg.org")[The Language of Language Machines].
-      ],
-      item(link(label("projects"))[Valery's Margins])[],
+      item(link("https://toc.machinelearninghumanities.org")[Terms and Conditions])[],
+      item([Valery's Margins], meta: "Site coming soon")[],
     )
 
     #section-head("Recent writing", more: link(label("writing"))[All writing])

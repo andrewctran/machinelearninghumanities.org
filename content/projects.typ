@@ -3,8 +3,6 @@
 #section-head("Projects")
 
 #listing(
-  item([Terms and Conditions])[
-    A bestiary of terms, in the manner of #link("https://lolm.ohrg.org")[The Language of Language Machines].
-  ],
-  item([Valery's Margins])[],
+  item(link("https://toc.machinelearninghumanities.org")[Terms and Conditions])[],
+  item([Valery's Margins], meta: "Site coming soon")[],
 )
