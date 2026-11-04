@@ -4,7 +4,7 @@
 
 #listing(
   item(link("https://toc.machinelearninghumanities.org")[“Terms and Conditions”])[
-    A critical vocabulary of machine learning, written one term at a time.
+    A critical vocabulary of contemporary (post-2015) NLP.
   ],
   item([Valery's Margins], meta: "Site coming soon")[],
 )
