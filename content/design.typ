@@ -1,4 +1,4 @@
-#set document(title: "Machine Learning & Humanities - Design")
+#set document(title: "Machine Learning Humanities - Design")
 
 // The style guide: every token and component in `style.css` and
 // `components.typ`, rendered live. Published at /design.html, linked from nowhere.

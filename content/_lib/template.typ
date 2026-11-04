@@ -13,7 +13,7 @@
   label-size: "14px",
 )
 
-#let SITE = "Machine Learning & Humanities"
+#let SITE = "Machine Learning Humanities"
 
 // The header nav, as (name, page label) pairs.
 #let NAV = (

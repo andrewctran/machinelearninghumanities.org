@@ -1,6 +1,6 @@
 # machinelearninghumanities.org
 
-The site of the Machine Learning & Humanities working group, published at [machinelearninghumanities.org](https://machinelearninghumanities.org).
+The site of the Machine Learning Humanities working group, published at [machinelearninghumanities.org](https://machinelearninghumanities.org).
 
 The site is written in [Typst](https://typst.app) and compiled by [Rheo](https://rheo.ohrg.org), a static site engine, with [Rookery](https://rookery.ohrg.org) loaded for writing. It shares its design system with [drewtran.com](https://drewtran.com) ([source](https://github.com/andrewctran/andrewctran.github.io)). GitHub Actions builds the site and deploys it to GitHub Pages on every push to `main`.
 
@@ -52,10 +52,10 @@ CNAME                  the custom domain, copied into the build for GitHub Pages
 
 Every `.typ` file in `content/` outside `_lib/` becomes a page, so `content/events.typ` is published at `/events.html`. Rheo splices `content/_lib/prelude.typ` into the top of each one. The prelude imports the components and Rookery's `idea`, `window`, `outline` and `footnote`, and wraps the page in `template`, passing the page's label (its file name without `.typ`) so the header nav can mark the current page. A page can call any component without importing it, and gets the header and footer automatically.
 
-A page sets its own title on its first line, as "Machine Learning & Humanities - " and the page name:
+A page sets its own title on its first line, as "Machine Learning Humanities - " and the page name:
 
 ```typst
-#set document(title: "Machine Learning & Humanities - Projects")
+#set document(title: "Machine Learning Humanities - Projects")
 ```
 
 To add a page to the header nav, add a `(name, label)` pair to `NAV` in `template.typ`.
@@ -93,7 +93,7 @@ Writing uses Rookery; see the [Rookery documentation](https://rookery.ohrg.org) 
 
 ## PDF and EPUB
 
-`just print` compiles every page in the spine into one PDF and one EPUB titled "Machine Learning & Humanities". The style guide is left out through the `exclude` lists under `[pdf.spine]` and `[epub.spine]` in `rheo.toml`. These lists replace the top-level `[spine] exclude` rather than adding to it, so each repeats `_lib/**`.
+`just print` compiles every page in the spine into one PDF and one EPUB titled "Machine Learning Humanities". The style guide is left out through the `exclude` lists under `[pdf.spine]` and `[epub.spine]` in `rheo.toml`. These lists replace the top-level `[spine] exclude` rather than adding to it, so each repeats `_lib/**`.
 
 ## Deployment
 

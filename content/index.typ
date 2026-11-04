@@ -1,8 +1,8 @@
-#set document(title: "Machine Learning & Humanities")
+#set document(title: "Machine Learning Humanities")
 
 #page-columns(
   [
-    Machine Learning & Humanities is a working group exploring the intersection of machine learning and the humanities.
+    Machine Learning Humanities is a working group exploring the intersection of machine learning and the humanities.
 
     #section-head("Current projects", more: link(label("projects"))[All projects])
     #notice("No projects listed yet.")[

@@ -9,11 +9,11 @@ prelude = "_lib/prelude.typ"
 css_stylesheet = "./style.css"
 
 [pdf.spine]
-title = "Machine Learning & Humanities"
+title = "Machine Learning Humanities"
 exclude = ["_lib/**", "design.typ"]
 
 [epub.spine]
-title = "Machine Learning & Humanities"
+title = "Machine Learning Humanities"
 exclude = ["_lib/**", "design.typ"]
 
 [packages.rookery]

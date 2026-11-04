@@ -1,4 +1,4 @@
-#set document(title: "Machine Learning & Humanities - Writing")
+#set document(title: "Machine Learning Humanities - Writing")
 
 #section-head("Writing")
 
