@@ -156,13 +156,21 @@ pre {
     gap: var(--side-gap);
 }
 
+/* When the main column opens on a section head, drop the side column by the
+   head's height so the first boxes in both columns line up. */
+.page-columns:has(> .page-main > .section-head:first-child) > .page-side {
+    padding-top: calc(var(--leading) + var(--notice-gap));
+}
+
 @media (max-width: 700px) {
     .page-columns {
         grid-template-columns: minmax(0, 1fr);
     }
 
-    .page-side {
+    .page-side,
+    .page-columns:has(> .page-main > .section-head:first-child) > .page-side {
         order: -1;
+        padding-top: 0;
     }
 }
 

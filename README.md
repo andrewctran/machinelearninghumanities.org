@@ -29,7 +29,7 @@ Run `bin/rheo` directly for anything else; it passes its arguments to Rheo, for 
 
 ```
 content/
-  index.typ            homepage: about, project/writing/reading sections, Join and Members
+  index.typ            homepage: project/writing/reading sections, About the group and Join
   projects.typ         /projects.html
   writing.typ          /writing.html, the index of Rookery writing
   readings.typ         /readings.html

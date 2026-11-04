@@ -26,8 +26,5 @@
 
       #link(label("join"))[How to join]
     ]
-    #side-box("Members")[
-      #entity(role: "Comparative Literature, UNC")[#link("https://drewtran.com")[Andrew Tran]]
-    ]
   ],
 )

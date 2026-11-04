@@ -63,6 +63,7 @@
   #spec[Paragraph after the first: 1em above]
   #spec[Entity hanging indent: 12px]
   #spec[Section heading after the first: 18px above]
+  #spec[Main column opening on a section heading: side column drops by the heading's height, so the top boxes align]
   #spec[Column: 960px, split 1.55:1 with a 26px gap]
   #spec[Side boxes: 14px apart]
   #spec[Below 700px: one column, side column first]
