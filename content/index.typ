@@ -2,8 +2,6 @@
 
 #page-columns(
   [
-    Machine Learning Humanities is a working group exploring the intersection of machine learning and the humanities.
-
     #section-head("Current projects", more: link(label("projects"))[All projects])
     #notice("No projects listed yet.")[
       The group's projects will be listed here, with what each is asking and who is working on it.
@@ -20,6 +18,9 @@
     ]
   ],
   [
+    #side-box("About the group")[
+      Machine Learning Humanities is a working group exploring the intersection of machine learning and the humanities.
+    ]
     #side-box("Join")[
       Anyone reading or building at the intersection of machine learning and the humanities is welcome.
 
