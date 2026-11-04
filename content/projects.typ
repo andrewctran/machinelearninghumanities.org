@@ -2,14 +2,9 @@
 
 #section-head("Projects")
 
-#notice("No projects listed yet.")[
-  The group's projects will be listed here, with what each is asking and who is working on it.
-]
-
-// To list projects, replace the notice with a listing, newest first:
-//
-// #listing(
-//   item(link("https://example.org")[Project title], meta: "Active · 2026")[
-//     One or two sentences on the question the project asks.
-//   ],
-// )
+#listing(
+  item([Terms and Conditions])[
+    A bestiary of terms, in the manner of #link("https://lolm.ohrg.org")[The Language of Language Machines].
+  ],
+  item([Valery's Margins])[],
+)

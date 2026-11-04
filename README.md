@@ -87,7 +87,7 @@ To add a component, define it in `components.typ` with a `context if target() ==
 
 ## Content
 
-Every section starts as a `notice` empty state. To fill one in, replace the notice with a `listing`; `projects.typ` and `readings.typ` have commented examples. The homepage shows each section's notice too, so update it alongside the section's page.
+Projects are a `listing` in `projects.typ`. Sections without content yet show a `notice` empty state; to fill one in, replace the notice with a `listing`, as `projects.typ` does and as the comment in `readings.typ` shows. The homepage repeats each section, so update it alongside the section's page.
 
 Writing uses Rookery; see the [Rookery documentation](https://rookery.ohrg.org) for how ideas and windows work. A comment in `site-header` in `template.typ` marks where `@rookery/search`'s search modal goes once there is something to search.
 

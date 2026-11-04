@@ -3,9 +3,12 @@
 #page-columns(
   [
     #section-head("Current projects", more: link(label("projects"))[All projects])
-    #notice("No projects listed yet.")[
-      The group's projects will be listed here, with what each is asking and who is working on it.
-    ]
+    #listing(
+      item(link(label("projects"))[Terms and Conditions])[
+        A bestiary of terms, in the manner of #link("https://lolm.ohrg.org")[The Language of Language Machines].
+      ],
+      item(link(label("projects"))[Valery's Margins])[],
+    )
 
     #section-head("Recent writing", more: link(label("writing"))[All writing])
     #notice("Nothing published yet.")[
