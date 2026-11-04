@@ -43,9 +43,6 @@
   #html.elem("span", attrs: (class: "last-updated"))[
     Last updated #datetime.today().display("[year]-[month]-[day]")
   ]
-  #html.elem("span", attrs: (class: "colophon"))[
-    Built with #link("https://rheo.ohrg.org")[Rheo] and #link("https://rookery.ohrg.org")[Rookery]
-  ]
 ]
 
 // `doc` is not wrapped in an element: pages open on `#set document(..)`,
