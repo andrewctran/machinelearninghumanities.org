@@ -293,7 +293,7 @@ pre {
 }
 
 /* ============================================
-   Rookery, for when writing arrives. Its stylesheet loads after this one and
+   Rookery. Its stylesheet loads after this one and
    sets labels and tags as small as 0.57rem, so the single size is enforced.
    ============================================ */
 

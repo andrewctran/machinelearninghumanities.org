@@ -6,10 +6,7 @@
 
     Machine Learning Humanities is open to anyone reading or building at the intersection of machine learning and the humanities, whatever their field.
 
-    #section-head("Meetings")
-    #notice("Meeting times will be posted here.")[
-      When and where the group meets, and how to get the readings beforehand.
-    ]
+    See #link(label("meetings"))[Meetings] for when and where the group meets.
   ],
   [
     #side-box("Contact")[

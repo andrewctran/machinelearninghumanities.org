@@ -8,14 +8,9 @@
       item([Valery's Margins], meta: "Site coming soon")[],
     )
 
-    #section-head("Recent writing", more: link(label("writing"))[All writing])
-    #notice("Nothing published yet.")[
-      Essays, notes and meeting write-ups will be listed here, newest first.
-    ]
-
-    #section-head("On the reading list", more: link(label("readings"))[Full list])
-    #notice("No readings listed yet.")[
-      The books and papers the group is reading will be listed here.
+    #section-head("Upcoming meetings", more: link(label("meetings"))[All meetings])
+    #notice("No meetings scheduled yet.")[
+      When and where the group meets, and what it's reading, will be posted here.
     ]
   ],
   [

@@ -1,7 +1,7 @@
 #import "@rookery/core:0.1.0": rookery
 
 // Rookery's theme, set from the tokens in `style.css` so ideas and windows
-// match the rest of the site once there is writing.
+// match the rest of the site.
 #let THEME = (
   link-color: "rgba(230, 230, 250, 0.8)",
   fold-color: "rgba(230, 230, 250, 0.4)",
@@ -19,8 +19,7 @@
 #let NAV = (
   ("About", "index"),
   ("Projects", "projects"),
-  ("Writing", "writing"),
-  ("Readings", "readings"),
+  ("Meetings", "meetings"),
   ("Join", "join"),
 )
 
@@ -37,8 +36,6 @@
 
 #let site-header(page) = html.elem("header", attrs: (class: "site-header"))[
   #html.elem("h1", attrs: (class: "site-title"), link(label("index"))[#SITE])
-  // Once there is writing, `@rookery/search`'s
-  // `#search-modal(placeholder: "Search writing")` goes beside the nav.
   #site-nav(page)
 ]
 
@@ -68,7 +65,7 @@
     raw(id.split(":").last())
   }
   set document(title: [#SITE - #name])
-  show: chrome.with(page: "writing")
+  show: chrome
   doc
 }
 

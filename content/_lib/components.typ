@@ -34,7 +34,7 @@
   block(above: 1.2em, below: 0.6em)[*#title*]
 }
 
-// A bordered list of `item`s, such as projects or readings.
+// A bordered list of `item`s, such as projects or meetings.
 #let listing(..items) = context if target() == "html" {
   html.elem("div", attrs: (class: "listing"), items.pos().join())
 } else {
@@ -56,7 +56,7 @@
   ]
 }
 
-// A gray box for a short message, such as the empty state where writing goes.
+// A gray box for a short message, such as an empty state.
 #let notice(title, body) = context if target() == "html" {
   html.elem("div", attrs: (class: "notice"))[
     #html.elem("h4", title)

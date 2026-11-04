@@ -2,7 +2,7 @@
 
 The site of the Machine Learning Humanities working group, published at [machinelearninghumanities.org](https://machinelearninghumanities.org).
 
-The site is written in [Typst](https://typst.app) and compiled by [Rheo](https://rheo.ohrg.org), a static site engine, with [Rookery](https://rookery.ohrg.org) loaded for writing. It shares its design system with [drewtran.com](https://drewtran.com) ([source](https://github.com/andrewctran/andrewctran.github.io)). GitHub Actions builds the site and deploys it to GitHub Pages on every push to `main`.
+The site is written in [Typst](https://typst.app) and compiled by [Rheo](https://rheo.ohrg.org), a static site engine, with [Rookery](https://rookery.ohrg.org) loaded. It shares its design system with [drewtran.com](https://drewtran.com) ([source](https://github.com/andrewctran/andrewctran.github.io)). GitHub Actions builds the site and deploys it to GitHub Pages on every push to `main`.
 
 ## Quick start
 
@@ -29,11 +29,10 @@ Run `bin/rheo` directly for anything else; it passes its arguments to Rheo, for 
 
 ```
 content/
-  index.typ            homepage: project/writing/reading sections, About the group and Join
+  index.typ            homepage: current projects, upcoming meetings, About the group and Join
   projects.typ         /projects.html
-  writing.typ          /writing.html, the index of Rookery writing
-  readings.typ         /readings.html
-  join.typ             /join.html: meetings and contact
+  meetings.typ         /meetings.html
+  join.typ             /join.html: who the group is for, and contact
   design.typ           style guide, published as /design.html (linked from nowhere)
   _lib/
     prelude.typ        spliced into the top of every page
@@ -87,9 +86,7 @@ To add a component, define it in `components.typ` with a `context if target() ==
 
 ## Content
 
-Projects are a `listing` in `projects.typ`. Sections without content yet show a `notice` empty state; to fill one in, replace the notice with a `listing`, as `projects.typ` does and as the comment in `readings.typ` shows. The homepage repeats each section, so update it alongside the section's page.
-
-Writing uses Rookery; see the [Rookery documentation](https://rookery.ohrg.org) for how ideas and windows work. A comment in `site-header` in `template.typ` marks where `@rookery/search`'s search modal goes once there is something to search.
+Projects are a `listing` in `projects.typ`. Meetings show a `notice` empty state until there are some; to list them, replace the notice with a `listing`, as the comment in `meetings.typ` shows. The homepage repeats both sections, so update it alongside the section's page.
 
 ## PDF and EPUB
 
